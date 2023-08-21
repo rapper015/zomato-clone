@@ -22,9 +22,9 @@ function App() {
     <Navbar_sub/>
     <Navbar_filter/>
     <Routes>
-      <Route path='/' element={<Delivery/>}/>
-      <Route path='/dining' element={<Dining/>}/>
-      <Route path='/nightlife' element={<NightLife/>}/>
+      <Route path='/zomato-clone/' element={<Delivery/>}/>
+      <Route path='/zomato-clone/dining' element={<Dining/>}/>
+      <Route path='/zomato-clone/nightlife' element={<NightLife/>}/>
       </Routes>
     <Footer/>
     </>

@@ -16,19 +16,19 @@ export default function Navbar_sub() {
 				<p>Kolkata Restaurants</p>
 			</div>
 			<div className="navbar_sub_nav">
-					<div onClick={()=>navigate("/")} className={loc=="/"?"navbar_sub_nav_main border_bottom":"navbar_sub_nav_main"}>
+					<div onClick={()=>navigate("/zomato-clone/")} className={loc=="/zomato-clone/"?"navbar_sub_nav_main border_bottom":"navbar_sub_nav_main"}>
 						<div className="navbar_sub_nav_main_img">
 							<img src="https://b.zmtcdn.com/data/o2_assets/c0bb85d3a6347b2ec070a8db694588261616149578.png" alt="" />
 						</div>
 						<p>Delivery</p>
 					</div>
-				<div onClick={()=>navigate("/dining")} className={loc=="/dining"?"navbar_sub_nav_main border_bottom":"navbar_sub_nav_main"}>
+				<div onClick={()=>navigate("/zomato-clone/dining")} className={loc=="/zomato-clone/dining"?"navbar_sub_nav_main border_bottom":"navbar_sub_nav_main"}>
 				<div className="navbar_sub_nav_main_img">
 						<img src="https://b.zmtcdn.com/data/o2_assets/30fa0a844f3ba82073e5f78c65c18b371616149662.png" alt="" />
 					</div>
 					<p>Dining Out</p>
 				</div>
-				<div onClick={()=>navigate("/nightlife")} className={loc=="/nightlife"?"navbar_sub_nav_main border_bottom":"navbar_sub_nav_main"}>
+				<div onClick={()=>navigate("/zomato-clone/nightlife")} className={loc=="/zomato-clone/nightlife"?"navbar_sub_nav_main border_bottom":"navbar_sub_nav_main"}>
 				<div className="navbar_sub_nav_main_img">
 						<img src="https://b.zmtcdn.com/data/o2_assets/855687dc64a5e06d737dae45b7f6a13b1616149818.png" alt="" />
 					</div>
