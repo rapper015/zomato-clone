@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&display=swap');
+*, :after, :before {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  padding: 0;
+  margin: 0;
+}
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+body, button, input, input::placeholder {
+  font-family: 'Metrophobic', sans-serif;
+}
+div, p, span {
+  font-size: 1.6rem;
+}
+:root{
+  --red:#EF4F5F;
+  --ice-white:#E5F3F3;
+  --almost-white:#f0efef;
+  --grey:#696969;
+  --off-white:#F8F8F8;
+  --green:#267E3E;
+}
+.display_none{
+  display: none;
+}
+.container{
+	width: 1536px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+
+/* 2xl */
+@media (max-width: 1536px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+/* xs */
+@media (max-width: 475px) {
+  .container {
+    width: 100%;
+  }
+}
+
+/* @media (max-width: 1536px) {
+}
+@media (max-width: 1280px) {
+}
+@media (max-width: 1024px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 640px) {
+}
+@media (max-width: 475px) {
+} */
